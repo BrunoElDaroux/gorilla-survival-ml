@@ -13,7 +13,7 @@ A full end-to-end machine learning pipeline predicting **individual survival out
 ## Research Questions
 
 1. Can individual survival outcomes in mountain gorillas be predicted from behavioral, social, and environmental variables collected longitudinally?
-2. Which variables are the strongest predictors of survival — and are those findings consistent with ecological theory on group-living in social mammals?
+2. Which variables are the strongest predictors of survival; and are those findings consistent with ecological theory on group-living in social mammals?
 3. Which social groups are demographically at-risk and should be prioritised for conservation intervention?
 
 
