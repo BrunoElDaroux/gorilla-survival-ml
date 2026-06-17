@@ -59,18 +59,16 @@ gorilla_survival_ml/
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   └── generate_dataset.py          ← Run this FIRST to create all CSVs
-│       gorilla_individuals.csv       ← Auto-generated
-│       gorilla_groups.csv            ← Auto-generated
-│       gorilla_observations.csv      ← Auto-generated
-│       rainfall_monthly.csv          ← Auto-generated
-│       analytical_dataset.csv        ← Auto-generated (final ML-ready data)
+│   └── gorilla_individuals.csv       
+│       gorilla_groups.csv           
+│       gorilla_observations.csv      
+│       rainfall_monthly.csv         
+│       analytical_dataset.csv        ← Final ML-ready data
 ├── notebooks/
-│   ├── 01_data_generation.ipynb      ← Generate & inspect datasets
-│   ├── 02_eda_sql.ipynb              ← SQL joins + Exploratory Data Analysis
-│   ├── 03_feature_engineering.ipynb  ← Build ML-ready feature matrix
-│   ├── 04_modeling.ipynb             ← Random Forest + evaluation
-│   └── 05_visualization.ipynb        ← ggplot2-style results & plots
+│   ├── 01_eda_sql.ipynb              ← SQL joins + Exploratory Data Analysis
+│   ├── 02_feature_engineering.ipynb  ← Build ML-ready feature matrix
+│   ├── 03_modeling.ipynb             ← Random Forest + evaluation
+│   └── 04_visualization.ipynb        ← ggplot2-style results & plots
 └── src/
     ├── data_utils.py                 ← Reusable data functions
     └── model_utils.py                ← Reusable modeling functions
