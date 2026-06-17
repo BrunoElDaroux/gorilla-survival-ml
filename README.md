@@ -49,7 +49,7 @@ Also, Small, and isolated groups with declining group size trajectories were fla
 | scikit-learn | Random Forest classifier |
 | plotnine | ggplot2-style visualizations in Python |
 | matplotlib / seaborn | Supplementary plots |
-| Jupyter Notebook | All analysis (VS Code compatible) |
+| Jupyter Notebook | All analysis |
 
 ---
 
