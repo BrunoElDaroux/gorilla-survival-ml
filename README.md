@@ -76,48 +76,12 @@ gorilla_survival_ml/
 
 ---
 
-## How to Run (VS Code)
-
-### 1. Create a virtual environment
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Generate the datasets
-```bash
-cd data
-python generate_dataset.py
-```
-
-### 4. Open notebooks in VS Code
-- Install the **Jupyter extension** in VS Code
-- Open notebooks in order: `01 → 02 → 03 → 04 → 05`
-- Select your venv as the kernel
-
----
-
 ## Ecological Background
 Parameters are grounded in published literature:
 - **Survival rates**: Adults ~95%/yr, Infants ~82%/yr (Robbins et al., 2011)
 - **Group size**: Ranges 2–38, mean ~10 (Harcourt & Fossey, 1981)
 - **Rainfall**: Virunga Massif bimodal pattern ~1800mm/yr
 - **Key predictors**: Group size (predator dilution, cooperative defense), rainfall (food availability lag), dominance rank (resource access)
-
----
-
-## ⚠️ Dataset Source Note
-> Since no fully open-access individual-level gorilla longitudinal survival CSV exists publicly, this project uses a **synthetic dataset generated with `generate_dataset.py`** using ecological parameters from peer-reviewed literature. The structure mirrors real datasets used by the Dian Fossey Gorilla Fund and similar field stations.
->
-> For real gorilla data, apply at: [https://gorillafund.org/science/](https://gorillafund.org/what-we-do/scientific-research/)
 
 ---
 
