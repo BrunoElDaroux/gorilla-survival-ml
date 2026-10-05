@@ -16,6 +16,19 @@ A full end-to-end machine learning pipeline predicting **individual survival out
 2. Which variables are the strongest predictors of survival; and are those findings consistent with ecological theory on group-living in social mammals?
 3. Which social groups are demographically at-risk and should be prioritised for conservation intervention?
 
+---
+
+## ⚠️ Data Transparency
+
+The datasets used in this project is **synthetic** and was created strictly for **educational, analytical, and portfolio purposes**. It does not represent real individual mountain gorillas, verified survival records, or field observations.
+
+The variables, biological context, and assumptions were informed by published knowledge of mountain gorilla ecology and population dynamics. However, **all survival outcomes, model results, and findings presented in this repository are generated from synthetic data and should not be interpreted as real-world findings**.
+
+This project is intended to demonstrate how machine learning can be applied to questions related to mountain gorilla survival. **If a comparable study were conducted using appropriate real-world data from an authorized institution, the analysis could follow a similar approach and produce outputs structured like those demonstrated here.**
+
+Any future research using real institutional or field data would require the appropriate **data-access permission, research authorization, and applicable ethical or regulatory approvals**.
+
+---
 
 ## Key Findings Summary
 
@@ -88,4 +101,4 @@ Parameters are grounded in published literature:
 
 ## Author
 
-*Data Technician with research experience at the Dian Fossey Gorilla Fund, building end-to-end computational pipelines across four domains: spatial movement ecology (GeoPandas, KDE, permutation testing), population genetics (CERVUS microsatellite LOD scoring, Queller-Goodnight kinship estimation), machine learning survival analysis (Random Forest, temporal cross-validation), and conservation epidemiology (logistic regression, SciPy hypothesis testing, temporal linkage). Technical stack: Python · R · SQL · scikit-learn · SciPy · GeoPandas · Git. All work is grounded in longitudinal biological datasets with direct conservation policy implications across the Virunga Massif — Rwanda, Uganda, and DRC.*
+*A Former Data Entry Intern with research experience at the Dian Fossey Gorilla Fund.*
